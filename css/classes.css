@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+#wrapper {
+    height: 100vh;
+    width: 100vw;
+    padding-left: 10px;
+}
+
+.title {
+    width: 100vw;
+    height: 40px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+table {
+    padding-left: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+table th, table td {
+    padding-left: 10px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+table thead {
+    padding-left: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+label {
+    height: 50px;
+}
+
+
+

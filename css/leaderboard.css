@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+#wrapper {
+    height: 100vh;
+    width: 100vw;
+    border: solid black 1px;
+    align-items: center;
+}
+
+.title {
+    width: 100vw;
+    height: 40px;
+    text-align:center;
+    text-decoration: underline;
+}
+
+.placement {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.explanation {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+h2 {
+    width: 15vw;
+    font-weight: bolder;
+}
+
+table {
+    padding-left: 10px;
+    width: 80vw;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table th, table td {
+    padding-left: 10px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+table thead {
+    padding-left: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+label {
+    height: 50px;
+}
+
+.first_place tbody tr {
+    background-color: gold;
+    color: #333;
+}
+
+.second_place {
+    background-color: silver;
+}
+
+.third_place {
+    background-color: #cd7f32;
+}

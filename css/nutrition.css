@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+#wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.title {
+    width: 100vw;
+    height: 40px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+#bmr-container {
+    padding-left: 10px;
+}
+
+#consumed_calorie-container {
+    padding-left: 10px;
+}
+
+#form-container {
+    width: 50%;
+}
+
+#addCalorieGoal {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+#addCalorieGoal div {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#addCalorieGoal .input-group {
+    height:100px;
+    flex:1;
+    padding-left: 10px;
+}
+
+#addCalorieGoal .input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#addCalorieGoal .input-group input {
+    width:80%;
+}
+
+#add-container .input-group {
+    padding-left: 10px;
+}
+
+#table-container label {
+    padding-left: 10px; 
+}

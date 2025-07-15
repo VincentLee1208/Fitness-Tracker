@@ -1,0 +1,14 @@
+DROP TABLE TrackMeasurement;
+DROP TABLE DoesWorkout;
+DROP TABLE WorkoutIncludeExercise;
+DROP TABLE MealContainFood;
+DROP TABLE GroupClass;
+DROP TABLE Class_Trainer;
+DROP TABLE Class_Price;
+DROP TABLE Meal;
+DROP TABLE Workout;
+DROP TABLE Nutrition;
+DROP TABLE Exercises;
+DROP TABLE Trainer;
+DROP TABLE Food;
+DROP TABLE UserInfo;

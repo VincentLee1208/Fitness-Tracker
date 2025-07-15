@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+select {
+    height: 30px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #f8f8f8;
+    border: thin solid #6ec6ff;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.advanced-group {
+    border: thin solid #6ec6ff;
+    border-radius: 4px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.page-bottom {
+    background-color: #6ec6ff;
+    color: #333333;
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+}
+
+.title {
+    width: 100%;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#form-container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#class-container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.input-group {
+    margin-top: 10px;
+}
+
+#exercise-name {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.exercise-duration-number {
+    width: 50px;
+}
+
+.add-element {
+    border-radius: 10px;
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.add-element:hover {
+    background-color: darkgray;
+}
+
+#exercise-title {
+    display: none;
+}
+
+#class-title {
+    display: none;
+}
+
+#class-table {
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    background-color: #f8f8f8;
+}
+
+#class-table tr {
+    height: 40px;
+}
+
+#exercise-table {
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    background-color: #f8f8f8;
+}
+
+#exercise-table tr {
+    height: 40px;
+    border: solid black 1px;
+}
+
+#exercise-table td {
+    border: solid black 1px;
+}
+
+.exercise-delete-button {
+    background-color: firebrick;
+    color: #f8f8f8;
+    border-radius: 4px;
+}
+
+#sort-drop {
+    height: 30px;
+    text-align: center;
+}
+
+
+#wrapper-left {
+    width: 30%;
+    height: 100vh;
+    padding-top: 30px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    background-color: #f8f8f8;
+}
+
+#wrapper-right {
+    width: 70%;
+    height: 100%;
+}
+
+/* Measurement table CSS */
+#wrapper-right table {
+    margin: auto;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+}
+
+#wrapper-right tr {
+    height: 50px;
+}
+
+#wrapper-right table td {
+    text-align: center;
+    border-right: 1px solid #f8f8f8;
+}
+
+#wrapper-right table th {
+    color: white;
+    background: #324960;
+}
+
+#wrapper-right tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+h3 {
+    margin-left: 10px;
+    text-decoration: underline;
+    font-weight: bolder;
+}

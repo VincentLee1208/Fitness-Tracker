@@ -1,0 +1,166 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+#wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.page-top {
+    border: 2px solid black;
+}
+
+.page-bottom {
+    background-color: #6ec6ff;
+    color: #333333;
+    font-weight: bold;
+    height: 100vh;
+    display: flex;
+}
+
+.title {
+    width: 100vw;
+    height: 40px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+/* Filter Form CSS */
+#form-container {
+    width: 50%;
+}
+
+#addmeasurement {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+#addmeasurement div {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#addmeasurement .input-group {
+    height:100px;
+    flex:1;
+}
+
+#addmeasurement .input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#addmeasurement .input-group input {
+    width:80%;
+}
+
+#addmeasurement .input-group button {
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #6ec6ff;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 5px 0 rgba(72, 140, 201, 0.8);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#addmeasurement .input-group button:hover {
+    background-color: rgba(112, 180, 231, 0.9); /* Darker background color on hover */
+}
+
+#addmeasurement .input-group button:active {
+    transform: translateY(2px);
+    box-shadow:none;
+}
+
+#wrapper-left {
+    width: 15%;
+    height: 100vh;
+    padding-top: 30px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+#wrapper-right {
+    width: 85%;
+}
+
+/* Filters CSS */
+#filters {
+    padding-left: 10%;
+    padding-top:20px;
+}
+
+#filters .input-group {
+    margin-bottom:10px;
+}
+
+.title-bottom {
+    height: 40px;
+    padding-left: 10%;
+    text-decoration: underline;
+}
+
+#filters label {
+    display:block;
+    font-weight: bold;
+}
+
+#filters button {
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+    width: 65%;
+    height: 40px;
+    cursor: pointer;
+    border:none;
+    border-radius: 60px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.1s
+}
+
+#filters button:hover {
+    background-color: lightgray;
+}
+
+#filters button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+
+/* Measurement table CSS */
+#wrapper-right table{
+    margin: auto;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border:none;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+}
+
+#wrapper-right tr {
+    height: 50px;
+}
+
+#wrapper-right table td {
+    text-align: center;
+    border-right: 1px solid #f8f8f8;
+}
+
+#wrapper-right table th {
+    color: white;
+    background: #324960;
+}
+
+#wrapper-right tr:nth-child(even) {
+    background: #f8f8f8;
+}
